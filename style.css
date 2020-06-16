@@ -1,0 +1,118 @@
+/* font yang digunakan */
+@font-face {
+    font-family: 'eny';
+    src: url(fonts/font1.woff) format('woff');
+}
+@font-face {
+    font-family: 'cartoon';
+    src: url(fonts/font2.woff) format('woff');
+}
+@font-face {
+    font-family: 'judul';
+    src: url(fonts/font3.woff) format('woff');
+}
+@font-face {
+    font-family: 'article';
+    src: url(fonts/font4.woff) format('woff');
+}
+
+/* style */
+body {
+    background-image: url(img/background.png);
+    padding: 50px;
+}
+
+/* navbar */
+.top-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: lightskyblue;
+    z-index: 9999;
+    margin-bottom: 550%;
+    font-family: 'cartoon', sans-serif;
+}
+
+header nav ul li {
+    display: inline-block;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+
+header nav ul a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
+
+header nav ul a:hover {
+    font-size: 25px;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightskyblue;
+    margin-top: 5%;
+}
+/* akhir navbar */
+
+
+/* article */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 50px;
+    background-color: darkgrey;
+}
+
+h2 {
+    padding-top: 75px;
+    font-size: 40px;
+    font-weight: lighter;
+    text-decoration: underline;
+    font-family: 'judul', sans-serif;
+    padding-bottom: 15px;
+}
+
+h3 {
+    font-weight: bold;
+    padding-bottom: 35px;
+    text-align: center;
+    font-family: 'cartoon', sans-serif;
+    color: black;
+}
+
+a h3:hover {
+    font-size: 45px;
+    color: white;
+}
+
+p {
+    min-height: 180px;
+    font-family: 'article', sans-serif;
+    text-align: justify;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+/* akhir article */
+
+/* footer */
+footer {
+    background-color: black;
+    height: 20px;
+}
+
+footer h5 {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+/* akhir footer */
